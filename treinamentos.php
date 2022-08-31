@@ -113,7 +113,7 @@
                                 <h2 class="titulo__pasta">Defeitos</h2>
                             </div>
                         </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./defeitos2.php">
+                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./conceitos-tecnicos.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
                                 <h2 class="titulo__pasta">Conceitos técnicos</h2>

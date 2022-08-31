@@ -90,27 +90,51 @@
     <main>
         <div class="titulo-principal__texto--icone">
             <img class="icone-at__titulo" src="./img/icone-at.svg" alt="">
-            <h1 class="titulo-principal__pastas">Testes de veículo</h1>
+            <h1 class="titulo-principal__pastas">Conceitos técnicos</h1>
         </div>
         <section class="container-principal__pastas">
             <div class="container__pastas">
                     <ul class="ul__pastas treinamentos">
                         <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./geracao.php">
-                            <div class="container__imagem-pasta--texto">
+                            <div style="font-size: 18px;" class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Geração</h2>
+                                <h2 class="titulo__pasta">Conceito básico</h2>
                             </div>
                         </a></li>
                         <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./fuga-corrente.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Fuga de corrente</h2>
+                                <h2 style="font-size: 18px;" class="titulo__pasta">Equipamentos de assistência</h2>
                             </div>
                         </a></li>
                         <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./arranque.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Arranque</h2>
+                                <h2 style="font-size: 18px;" class="titulo__pasta">Guia de verificação e instalação de baterias</h2>
+                            </div>
+                        </a></li>
+                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./fuga-corrente.php">
+                            <div class="container__imagem-pasta--texto">
+                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
+                                <h2 style="font-size: 18px;" class="titulo__pasta">Método de substituição de baterias</h2>
+                            </div>
+                        </a></li>
+                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./fuga-corrente.php">
+                            <div class="container__imagem-pasta--texto">
+                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
+                                <h2 style="font-size: 18px;" class="titulo__pasta">Roteiro de inspeção e garantia</h2>
+                            </div>
+                        </a></li>
+                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./fuga-corrente.php">
+                            <div class="container__imagem-pasta--texto">
+                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
+                                <h2 style="font-size: 18px;" class="titulo__pasta">Sistema 24v</h2>
+                            </div>
+                        </a></li>
+                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./fuga-corrente.php">
+                            <div class="container__imagem-pasta--texto">
+                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
+                                <h2 style="font-size: 18px;" class="titulo__pasta">Tecnologias e suas aplicações Start-Stop (EFB/AGM)</h2>
                             </div>
                         </a></li>
                     </ul>
