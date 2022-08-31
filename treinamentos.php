@@ -2,6 +2,7 @@
     session_start();
 
     include_once('config.php');
+    oi
 
     $sqll = "SELECT * FROM diagnosticos ORDER by id DESC";
     $resultt = $conexao->query($sqll);
