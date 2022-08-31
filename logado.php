@@ -23,7 +23,11 @@
 
     if($row == 1) {
         $_SESSION['cnpj'] = $cnpj;
-        header('Location: index.php');
+        if($_SERVER['HTTP_REFERER'] == 'https://bfbr999.000webhostapp.com/treinamentos.php' ) {
+            header('Location: treinamentos.php');
+        } else {
+            header('Location: index.php');
+        }
     } else {
         $_SESSION['nao_autenticado'] = true;
         header('Location: index.php');

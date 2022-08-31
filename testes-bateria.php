@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+<?php
+    session_start();
+
+    include_once('config.php');
+
+    $sqll = "SELECT * FROM diagnosticos ORDER by id DESC";
+    $resultt = $conexao->query($sqll);
+    $user_dataa = mysqli_fetch_assoc($resultt);
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,12 +33,56 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav__cabecalho">
-                <li class="itens-nav__cabecalho"><a class="link-itens-nav__cabecalho" href="./treinamentos.html">Treinamentos</a></li>
+                <li class="itens-nav__cabecalho"><a class="link-itens-nav__cabecalho" href="./treinamentos.php">Treinamentos</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/produtos/">Produtos</a></li>
-                <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/descubra-qual-a-sua-bateria/">Descubra sua bateria</a></li>
+                <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/descubra-qual-a-sua-bateria/">Sua bateria</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/revendas/">Revendas</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://goo.gl/maps/wptqWDtTCvP4C6Hh8">Localização</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" href="https://api.whatsapp.com/send?phone=5574999658200"><img class="whatsapp__icon" src="./img/icon-whatsapp.png"></a></li>
+                <li class="itens-nav__cabecalho login">
+                                <form action="logado.php" method="POST">
+                                    <?php
+                                    if(isset($_SESSION['nao_autenticado'])):
+                                    ?>
+                                    <p class="login-erro">CNPJ ou senha inválido</p>
+                                    <?php
+                                    endif;
+                                    unset($_SESSION['nao_autenticado']);
+                                    ?>
+
+                                    <?php
+                                        if($_SESSION):
+                                    ?>
+                                    <h2 style="font-size: 14px; font-family: helvetica, arial, sans-serif; font-weight: 600;">
+                                    <?php 
+                                            while($user_dataa = mysqli_fetch_assoc($resultt)){
+                                                echo "<tr>";
+                                                    if($_SESSION['cnpj'] == $user_dataa['cnpj']) {
+                                                        echo "<td>".$user_dataa['cliente']."</td>";
+                                                        break;
+                                            }
+                                        }
+                                    ?>
+                                    </h2>
+                                    <button class="botao__assistencias"><a href="./painel.php">Assistências</a></button>
+                                    <button class="botao-sair"><a href="./logout.php">Sair</a></button>
+                                    <?php
+                                    endif;
+                                    ?>
+
+                                    
+                                    <?php
+                                        if(!$_SESSION):
+                                    ?>
+                                        <input name="cnpj" id="login__cnpj" placeholder="CNPJ" type="text" maxlength="14" autocomplete="off" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onpaste="return false" required>
+                                        <input name="senha" id="login__senha" placeholder="Senha" type="password" maxlength="7" required>
+                                        <input value="Entrar" class="login__botao-entrar" type="submit">
+                                        <a href="./solicitar-cadastro.php" class="login__solicitar-acesso">Solicitar acesso</a>
+                                    <?php
+                                    endif;   
+                                    ?>
+                                </form>
+                            </li>
             </ul>
         </nav>
     </div>
@@ -48,7 +102,7 @@
                                 <h2 class="titulo__pasta">Desligamento</h2>
                             </div>
                         </a></li>
-                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="#">
+                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./curto-circuito.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
                                 <h2 class="titulo__pasta">Curto-Circuito</h2>
@@ -60,19 +114,19 @@
                                 <h2 class="titulo__pasta">Vazamento</h2>
                             </div>
                         </a></li>
-                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="#">
+                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./bateria-descarregada.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
                                 <h2 class="titulo__pasta">Descarregada</h2>
                             </div>
                         </a></li>
-                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./bateria-normal.html">
+                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./bateria-normal.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
                                 <h2 class="titulo__pasta">Bateria normal</h2>
                             </div>
                         </a></li>
-                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="#">
+                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./sobrecarga.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
                                 <h2 class="titulo__pasta">Sobrecarga</h2>

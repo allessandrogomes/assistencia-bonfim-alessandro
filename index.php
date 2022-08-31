@@ -41,7 +41,7 @@
                             <div class="line3"></div>
                         </div>
                         <ul class="nav__cabecalho">
-                            <li class="itens-nav__cabecalho"><a class="link-itens-nav__cabecalho" href="./em-breve.php">Treinamentos</a></li>
+                            <li class="itens-nav__cabecalho"><a class="link-itens-nav__cabecalho" href="./treinamentos.php">Treinamentos</a></li>
                             <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/produtos/">Produtos</a></li>
                             <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/descubra-qual-a-sua-bateria/">Sua bateria</a></li>
                             <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/revendas/">Revendas</a></li>
@@ -110,20 +110,20 @@
             <div class="treinamentos">
                 <div class="container-card__lista">
                     <div class="container__imagem--opcoes">
-                        <a class="container-img-card__lista" href="./treinamentos.html">
+                        <a class="container-img-card__lista" href="./treinamentos.php">
                             <img src="./img/Treinamento2.png" class="img-card__lista">
                         </a>
                     </div>
                     <div class="container-texto__lista">
                         <div class="container__tituloedescricao-card">
-                            <a href="./treinamentos.html"><h1 class="titulo-card">Treinamentos</h1></a>
-                            <a href="./treinamentos.html"><h2 class="descricao-card">Dicas do Conexão Revenda</h2></a>
+                            <a href="./treinamentos.php"><h1 class="titulo-card">Treinamentos</h1></a>
+                            <a href="./treinamentos.php"><h2 class="descricao-card">Dicas do Conexão Revenda</h2></a>
                         </div>
                         <div class="tituloedescricao-card__descricao2">
-                            <a href="./treinamentos.html"><h2 class="descricao2">Realize treinamentos para aperfeiçoar e aprender novas técnicas que serão de extrema importância para profissionalizar ainda mais o seu negócio. Apartir disso, conseguirá realizar testes mais precisos e acelerar os processos de assistência ao cliente.</h2></a>
+                            <a href="./treinamentos.php"><h2 class="descricao2">Realize treinamentos para aperfeiçoar e aprender novas técnicas que serão de extrema importância para profissionalizar ainda mais o seu negócio. Apartir disso, conseguirá realizar testes mais precisos e acelerar os processos de assistência ao cliente.</h2></a>
                         </div>
                         <div class="container__botao-card">
-                            <a href="./treinamentos.html"><h3 class="botao-card">Faça agora</h1></a>
+                            <a href="./treinamentos.php"><h3 class="botao-card">Faça agora</h1></a>
                         </div>
                         <div class="container__aplicacoes-card">
                             <h3 class="aplicacoes-card">Conteúdos</h3>
