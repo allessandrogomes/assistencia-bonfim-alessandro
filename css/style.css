@@ -1044,6 +1044,10 @@ nav {
     color: #182a74;
 }
 
+.icon-github {
+    width: 25px;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .rodape__texto {
         text-align: center;

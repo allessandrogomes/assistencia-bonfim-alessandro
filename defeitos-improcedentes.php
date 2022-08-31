@@ -36,7 +36,7 @@
             <ul class="nav__cabecalho">
                 <li class="itens-nav__cabecalho"><a class="link-itens-nav__cabecalho" href="./treinamentos.php">Treinamentos</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/produtos/">Produtos</a></li>
-                <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/descubra-qual-a-sua-bateria/">Descubra sua bateria</a></li>
+                <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/descubra-qual-a-sua-bateria/">Sua bateria</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://www.moura.com.br/revendas/">Revendas</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" class="link-itens-nav__cabecalho" href="https://goo.gl/maps/wptqWDtTCvP4C6Hh8">Localização</a></li>
                 <li class="itens-nav__cabecalho"><a target="_blank" href="https://api.whatsapp.com/send?phone=5574999658200"><img class="whatsapp__icon" src="./img/icon-whatsapp.png"></a></li>
@@ -103,12 +103,6 @@
                                 <h2 class="titulo__pasta">Sobrecarga</h2>
                             </div>
                         </a></li>
-                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="#">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Prazo de fabricação</h2>
-                            </div>
-                        </a></li>
                         <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./polo-danificado.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
@@ -136,13 +130,7 @@
                         <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="./aplicacao-incorreta.php">
                             <div class="container__imagem-pasta--texto">
                                 <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Aplicação incorreta</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas"><a class="link-itens-lista__pastas" href="#">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Baterias diferentes</h2>
+                                <h2 class="titulo__pasta">Aplicação indevida</h2>
                             </div>
                         </a></li>
                     </ul>
@@ -160,6 +148,8 @@
             <h3 class="rodape__phone___texto">0800 701 2021</h3>
         </a>
         <h3 class="rodape__texto">Copyright &copy; 2022 - Bonfim Baterias LTDA - Todos os direitos reservados.</h3>
+        <h4 class="rodape__texto">Desenvolvimento por Alessandro Gomes e Vinícius Duarte</h4>
+        <a target="_blank" href="https://github.com/allessandrogomes"><img class="icon-github" src="./img/icon-gitgub.png" alt=""></a>
     </footer>
     <script src="./mobile-navbar.js"></script>
 </body>
