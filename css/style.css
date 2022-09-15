@@ -2,8 +2,8 @@
 /*CABECALHO*/
 
 @font-face {
-    font-family: 'Biennale';
-    src: url(./fonts/Biennale_Black.otf);
+    font-family: "Biennale";
+    src: url(/fonts/Biennale_Black.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -293,7 +293,7 @@ nav {
 .texto__titulo {
     font-size: 75px;
     line-height: 1.4;
-    font-family: 'Biennale', sans-serif;
+    font-family: "Biennale", sans-serif;
     font-weight: 700;
     color: #182a74;
 }
@@ -998,6 +998,7 @@ nav {
     height: 200px;
     position: relative;
     background: #fff;
+    margin-top: 10px;
 }
 
 .rodape__moura--logo {

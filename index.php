@@ -208,7 +208,7 @@
                 <img src="./img/phone.png" alt="">
                 <h3 class="rodape__phone___texto">0800 701 2021</h3>
             </a>
-            <h3 class="rodape__texto">Copyright &copy; 2022 - Alessandro da Silva Gomes - Todos os direitos reservados.</h3>
+            <h3 class="rodape__texto">Copyright &copy; 2022 - Bonfim Baterias LTDA - Todos os direitos reservados.</h3>
             <h4 class="rodape__texto">Desenvolvimento por Alessandro Gomes e Vinícius Duarte</h4>
             <a target="_blank" href="https://github.com/allessandrogomes"><img class="icon-github" src="./img/icon-gitgub.png" alt=""></a>
         </footer>

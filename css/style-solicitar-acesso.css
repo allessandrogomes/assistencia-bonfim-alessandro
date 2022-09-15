@@ -12,8 +12,8 @@ body {
 /*CABECALHO*/
 
 @font-face {
-    font-family: 'Biennale';
-    src: url(./fonts/Biennale\ Black.otf);
+    font-family: "Biennale";
+    src: url(/fonts/Biennale_Black.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -375,6 +375,7 @@ fieldset {
 .rodape__moura--logo {
     width: 150px;
     height: 51px;
+    margin-top: 10px;
 }
 
 .moura-logo__rodape {
@@ -391,18 +392,18 @@ fieldset {
     font-size: 12px;
     padding-left: 5px;
     color: #6ebe71;
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Biennale', sans-serif;
 }
 
 .rodape__phone {
-    display: flex;
     align-items: center;
+    display: flex;
+    font-weight: 800;
     padding-bottom: 20px;
 }
 
 .rodape__phone___texto {
-    font-weight: 700;
     font-size: 12px;
     padding-left: 5px;
     font-family: 'Biennale', sans-serif;
@@ -410,10 +411,14 @@ fieldset {
 }
 
 .rodape__texto {
-    font-weight: 700;
     font-family: 'Biennale', sans-serif;
     font-size: 12px;
+    font-weight: 800;
     color: #182a74;
+}
+
+.icon-github {
+    width: 25px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

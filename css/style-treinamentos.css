@@ -1,5 +1,12 @@
 /*CABECALHO*/
 
+@font-face {
+    font-family: "Biennale";
+    src: url(/fonts/Biennale_Black.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 main {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(24,42,116,1) 100%);
@@ -250,7 +257,7 @@ nav {
 
 .titulo-principal__pastas {
     font-size: 3rem;
-    font-family: 'Biennale', sans-serif;
+    font-family: sans-serif;
     text-align: center;
     position: relative;
     font-weight: 600;
@@ -291,7 +298,7 @@ nav {
 
 .link-itens-lista__pastas {
     font-size: 20px;
-    font-family: 'Biennale', sans-serif;
+    font-family: sans-serif;
     font-weight: 450;
     transition-duration: 0.5s;
 }
@@ -330,6 +337,18 @@ nav {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+}
+
+.pdf_download {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.treinamentos__pdf {
+    height: 90vh;
 }
 
 .teste__texto {
@@ -519,7 +538,7 @@ nav {
     font-size: 12px;
     padding-left: 5px;
     color: #6ebe71;
-    font-family: 'Biennale', sans-serif;
+    font-family: sans-serif;
 }
 
 .rodape__phone {
@@ -533,7 +552,7 @@ nav {
     font-weight: 800;
     font-size: 12px;
     padding-left: 5px;
-    font-family: 'Biennale', sans-serif;
+    font-family: sans-serif;
     color: #ffcf6d;
 }
 

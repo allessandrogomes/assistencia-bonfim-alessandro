@@ -19,14 +19,14 @@
     $result = mysqli_query($conexao, $query);
 
     $row = mysqli_num_rows($result);
-
+    
 
     if($row == 1) {
         $_SESSION['cnpj'] = $cnpj;
         if($_SERVER['HTTP_REFERER'] == 'https://bfbr999.000webhostapp.com/treinamentos.php' ) {
             header('Location: treinamentos.php');
         } else {
-            header('Location: index.php');
+        header('Location: index.php');
         }
     } else {
         $_SESSION['nao_autenticado'] = true;

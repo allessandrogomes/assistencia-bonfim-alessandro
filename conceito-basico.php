@@ -8,6 +8,7 @@
     $user_dataa = mysqli_fetch_assoc($resultt);
 ?>
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -87,57 +88,15 @@
     </div>
 </div>
 </header>
-    <main>
-        <div class="titulo-principal__texto--icone">
-            <img class="icone-at__titulo" src="./img/icone-at.svg" alt="">
-            <h1 class="titulo-principal__pastas">Conceitos técnicos</h1>
-        </div>
-        <section class="container-principal__pastas">
-            <div class="container__pastas">
-                    <ul class="ul__pastas treinamentos">
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./conceito-basico.php">
-                            <div style="font-size: 18px;" class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 class="titulo__pasta">Conceitos básicos</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./equipamentos-assistencias.php">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 style="font-size: 18px;" class="titulo__pasta">Equipamentos de assistência</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./guia-verificacao-instalacao.php">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 style="font-size: 18px;" class="titulo__pasta">Guia de verificação e instalação de baterias</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./metodo-substituicao.php">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 style="font-size: 18px;" class="titulo__pasta">Método de substituição de baterias</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./roteiro-inspecao-garantia.php">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 style="font-size: 18px;" class="titulo__pasta">Roteiro de inspeção e garantia</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./sistema-24v.php">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 style="font-size: 18px;" class="titulo__pasta">Sistema 24v</h2>
-                            </div>
-                        </a></li>
-                        <li class="itens-lista__pastas treinamentos"><a class="link-itens-lista__pastas" href="./tecnologias-aplicacoes.php">
-                            <div class="container__imagem-pasta--texto">
-                                <img class="icone__pasta" src="./img/icone-pasta.png" alt="">
-                                <h2 style="font-size: 18px;" class="titulo__pasta">Tecnologias e suas aplicações Start-Stop (EFB/AGM)</h2>
-                            </div>
-                        </a></li>
-                    </ul>
+    <main style="background: white;">
+        <section class="container-principal__teste">
+            <div class="titulo-principal__texto--icone">
+                <img class="icone-at__titulo" src="./img/icone-at.svg" alt="">
+                <h1 class="titulo-principal__pastas">Conceitos básicos</h1>
+            </div>
+            <div class="container__teste__texto-video">
+                <a class="pdf_download" download href="./pdf/conceito básico.pdf">Baixar PDF</a>
+                <embed class="treinamentos__pdf" src="./pdf/conceito básico.pdf#view=FitH" width="100%" type="application/pdf";>
             </div>
         </section>
     </main>
